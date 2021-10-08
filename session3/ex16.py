@@ -6,3 +6,13 @@
         Veti primi: 'cmi'
         Veti printa: 'cmicmicmi'
 """
+
+x=input()
+
+#first method
+y=x+x+x
+#second method
+z=x*3
+
+print(y)
+print(z)

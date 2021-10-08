@@ -7,3 +7,13 @@
         Veti primi: 'cmi', 5
         Veti printa: 'cmicmicmicmicmi'
 """
+
+
+inputs=[]
+for i in range(0,2):
+    inputs.append(input())
+
+
+x=inputs[0] * int(inputs[1])
+print(x)
+

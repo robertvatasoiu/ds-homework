@@ -12,3 +12,10 @@
         5
         cate un singur numar pe linie.
 """
+
+x=input("Introduceti numarul de la tastatura:")
+y=int(x)
+
+for i in range(0, y):
+    if i%2!=0:
+        print(i)
