@@ -19,5 +19,14 @@ l2 = ['a', 'b', 'c', 'd']
 # In varaibila d1 avem un dictionar gol
 d1 = {}
 
+
+for i in range(0, len(l1)):
+        d1[l1[0]]=l2[0]
+        d1[l1[1]]=l2[1]
+        d1[l1[2]]=l2[2]
+        d1[l1[3]]=l2[3]
+
+print(d1)
+
 # Afisam listele l1 si l2
 print(l1, l2)

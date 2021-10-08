@@ -7,3 +7,16 @@
         Veti primi: 'Center for Intelligent Machines', 2, 5
         Veti printa: 'nter'
 """
+
+inputs=[]
+
+for i in range(0,3):
+    inputs.append(input())
+
+print(inputs)
+x=inputs[0]
+y=int(inputs[1])
+z=int(inputs[2])
+print(x[y:z+1])
+
+
