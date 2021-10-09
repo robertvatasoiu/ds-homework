@@ -16,3 +16,16 @@
             2: 'i'
         }
 """
+q=[]
+for i in range(0, 2):
+    i=input()
+    q.append(i)
+
+word=q[0]
+number=int(q[1])
+
+d={}
+for i in range(0, len(word)):
+        d[i]=word[i]
+
+print(d)
