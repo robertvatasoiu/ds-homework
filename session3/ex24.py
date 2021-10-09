@@ -14,3 +14,20 @@
         Veti primi: 1232
         Veti printa: False
 """
+x=input()
+number=int(x)
+numarvechi=number
+invers=0
+while number>0:
+    rest=number%10
+    invers=invers*10 + rest
+    number=number//10
+    
+print(invers)
+print(number)
+if invers!=numarvechi:
+    print('False')
+else:
+    print('True')
+
+#imi afiseaza doar False

@@ -7,3 +7,9 @@
         Veti primi: 5
         Veti printa: 'ashdj' (poate fi orice alt string)
 """
+numberofletters=input()
+
+import random
+import string
+letters = string.ascii_letters
+print(''.join(random.choice(letters) for i in range(int(numberofletters))))

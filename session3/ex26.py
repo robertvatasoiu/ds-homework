@@ -13,3 +13,15 @@
         False
         False
 """
+x=[]
+while True:
+    y=input()
+    if y!='exit':
+        x.append(int(y))
+    else: 
+        break
+for i in x:
+    if i%2==0:
+        print("True")
+    elif i%2!=0:
+        print("False")
