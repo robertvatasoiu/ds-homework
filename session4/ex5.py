@@ -11,3 +11,9 @@
         si definitia functiei)
         - hint: list comprehensions (google it if you don't know it already)
 """
+
+def func(x): 
+   newlist=[i+1 for i in x ]
+   print(newlist)
+
+func([1, 2, 3,4,5])
