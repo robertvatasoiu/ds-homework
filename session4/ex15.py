@@ -6,3 +6,16 @@
         - nu aveti voie sa scrieti o functie g voi (def g(): blabla)
         - nu aveti voie sa folositi decoratori
 """
+
+def f():
+    print('cmi')
+
+g=f
+
+g()
+
+"""def g():
+    f()
+
+g() """
+

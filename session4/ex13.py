@@ -5,7 +5,20 @@
 
 """
 
+def dec(func):
+    def wraper():
+        y=[]
+        x=func()
+        for i in range(0, len(str(x))):
+            s=x[i].upper()
+            y.append(s)
+        newstring=''.join(y)
+        print(newstring)
+    return wraper
 
+@dec
 # decoarate me
 def f():
     return 'cmi'
+
+f()

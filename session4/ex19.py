@@ -16,3 +16,19 @@
             }
 
 """
+import random
+from random import randint
+import string
+
+def func(my_str):
+    mydict={}
+    for i in range(0, 4):
+        x=''.join([random.choice(string.ascii_letters) for i in range (random.choice([3,4,5,6]))])
+        number=random.randint(0,10)   
+        mydict[number]=x
+
+    x=my_str+".json"
+    with open(x, "w+") as f:
+        f.write(str(mydict))
+
+func('ceva')
