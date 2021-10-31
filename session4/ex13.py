@@ -13,8 +13,8 @@ def dec(func):
         for i in range(0, len(str(x))):
             s = x[i].upper()
             y.append(s)
-        newstring = "".join(y)
-        print(newstring)
+        new_string = "".join(y)
+        print(new_string)
 
     return wraper
 

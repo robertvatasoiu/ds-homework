@@ -7,12 +7,16 @@
         - func('aabbcc')
             ---> 'bbccdd'
 """
-def func(s):
-    s1=[]
-    for i in range(0, len(str(s))):
-        x=chr(ord(s[i])+1)
-        s1.append(x)
-    litere=''.join(s1)
-    print(litere)
 
-func('xxyyzz')
+
+def func(s):
+    s1 = []
+    for i in range(0, len(str(s))):
+        x = chr(ord(s[i]) + 1)
+        s1.append(x)
+    letters = "".join(s1)
+    print(letters)
+
+
+func("xxyyzz")
+
