@@ -6,11 +6,14 @@
         Veti primi: 'center'
         Veti printa: 'CeNtEr'
 """
-x=input()
+x = input()
+s = []
 for i in range(0, len(x), 2):
-    x=x[i].lower()
+    d = x[i].lower()
+
 
 print(x)
 
 
-#nu functioneaza lower
+# nu functioneaza lower
+
