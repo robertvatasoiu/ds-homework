@@ -7,8 +7,9 @@
             ---> 6
 """
 
+
 def suma(lista):
-    if len(lista)==0:
+    if len(lista) == 0:
         return 0
     else:
         return lista[0] + suma(lista[1:])

@@ -13,9 +13,12 @@
             --> (3 + 5) * 5 + 3 = 43
 """
 
+
 def get_me_numbers(y):
     def multiply_by_5(x):
-        return x*5
-    return multiply_by_5(y+5)+3
+        return x * 5
+
+    return multiply_by_5(y + 5) + 3
+
 
 print(get_me_numbers(4))

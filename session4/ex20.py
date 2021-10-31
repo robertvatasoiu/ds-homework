@@ -9,7 +9,8 @@ import json
 
 
 with open("ceva.json") as read_file:
-    content=json.load(read_file)
+    content = json.load(read_file)
     print(content)
 
-#don't work :(
+# don't work :(
+

@@ -12,7 +12,11 @@
     Observatii:
         - functia trebuie sa aiba MAXIM 1 linie de cod ca si body
 """
-def func(prefix, word, suffix):
-    return prefix+word+suffix
 
-print(func('a', 'b', 'c'))
+
+def func(prefix, word, suffix):
+    return prefix + word + suffix
+
+
+print(func("a", "b", "c"))
+

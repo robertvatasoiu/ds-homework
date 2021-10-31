@@ -10,15 +10,17 @@
 
 def dec(func):
     def wrapper(*args, **kwargs):
-        print('cmi')
+        print("cmi")
         # your code goes here
         func(*args, **kwargs)
-        print(kwargs['y'])
+        print(kwargs["y"])
+
     return wrapper
 
 
 @dec
-def f(x, y):  
+def f(x, y):
     print(x)
+
 
 f(x=1, y=2)

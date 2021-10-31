@@ -7,16 +7,20 @@
     Functia decorata este f.
 """
 
+
 def dec(func):
     def wraper():
-        x=func()
-        with open("output11.data", 'w+') as f:
+        x = func()
+        with open("output11.data", "w+") as f:
             f.write(x)
-    return wraper   
+
+    return wraper
+
 
 @dec
 # decorate me
 def f():
     return "CMI"
+
 
 f()

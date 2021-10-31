@@ -14,4 +14,4 @@ def f(*args):
 # Nu modificati linia de mai jos
 f(1, 2, 3)
 
-f('hi', 'my', 'name', 'is', 'robert')
+f("hi", "my", "name", "is", "robert")

@@ -20,20 +20,24 @@
             ---> ceva1
 """
 
+
 def upper(my_str):
     return my_str.upper()
+
 
 def lower(my_str):
     return my_str.lower()
 
-x=input()
+
+x = input()
+
 
 def call_changers(y):
-    if len(y)%2==0:
+    if len(y) % 2 == 0:
         return upper(y)
-    elif len(y)%2!=0:
+    elif len(y) % 2 != 0:
         return lower(y)
 
-print(call_changers(x))
 
+print(call_changers(x))
 

@@ -7,10 +7,12 @@
         - nu aveti voie sa folositi decoratori
 """
 
-def f():
-    print('cmi')
 
-g=f
+def f():
+    print("cmi")
+
+
+g = f
 
 g()
 

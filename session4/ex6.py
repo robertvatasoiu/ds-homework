@@ -15,4 +15,4 @@ def func(s):
     litere=''.join(s1)
     print(litere)
 
-func('aabbcc')
+func('xxyyzz')
