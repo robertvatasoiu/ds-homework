@@ -8,9 +8,9 @@
 import json
 
 
-with open("ceva.json") as read_file:
-    content = json.load(read_file)
-    print(content)
+def read_from_file(file):
+    with open(file) as read_file:
+        print(json.load(read_file))
 
-# don't work :(
 
+read_from_file("ceva.json")
