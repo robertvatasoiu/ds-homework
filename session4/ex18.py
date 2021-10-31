@@ -8,11 +8,11 @@
 """
 
 
-def suma(lista):
-    if len(lista) == 0:
+def sum(numbers):
+    if len(numbers) == 0:
         return 0
     else:
-        return lista[0] + suma(lista[1:])
+        return numbers[0] + numbers(lista[1:])
 
 
-print(suma([1, 2, 3]))
+print(sum([1, 2, 3]))

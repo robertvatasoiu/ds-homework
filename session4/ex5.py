@@ -14,8 +14,8 @@
 
 
 def func(x):
-    newlist = [i + 1 for i in x]
-    print(newlist)
+    new_list = [i + 1 for i in x]
+    print(new_list)
 
 
 func([1, 2, 3, 4, 5])
