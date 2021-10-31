@@ -12,7 +12,7 @@ def sum(numbers):
     if len(numbers) == 0:
         return 0
     else:
-        return numbers[0] + numbers(lista[1:])
+        return numbers[0] + sum(numbers[1:])
 
 
 print(sum([1, 2, 3]))

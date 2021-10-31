@@ -25,9 +25,8 @@ import string
 
 def dec(func):
     def wraper(*args, **kwargs):
-        x = func(*args)
         with open("output17.data", "a+") as f:
-            f.write(x + "\n")
+            f.write(func(*args) + "\n")
 
     return wraper
 

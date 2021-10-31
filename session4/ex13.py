@@ -11,8 +11,7 @@ def dec(func):
         y = []
         x = func()
         for i in range(0, len(str(x))):
-            s = x[i].upper()
-            y.append(s)
+            y.append(x[i].upper())
         new_string = "".join(y)
         print(new_string)
 

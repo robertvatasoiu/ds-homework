@@ -19,10 +19,11 @@
 import random
 from random import randint
 import string
+import json
 
 
 def func(my_str):
-    mydict = {}
+    my_dict = {}
     for i in range(0, 4):
         x = "".join(
             [
@@ -31,11 +32,10 @@ def func(my_str):
             ]
         )
         number = random.randint(0, 10)
-        mydict[number] = x
+        my_dict[number] = x
 
-    x = my_str + ".json"
-    with open(x, "w+") as f:
-        f.write(str(mydict))
+    with open(my_str + ".json", "w+") as file:
+        json.dump(my_dict, file)
 
 
 func("ceva")
