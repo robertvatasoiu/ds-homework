@@ -28,3 +28,9 @@
     The explanations for what the methods should do are mainly for the classes
     that will extend the Animal class.
 """
+
+
+from abc import ABC 
+
+class Animal(ABC):
+    pass
